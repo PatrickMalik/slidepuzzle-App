@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Slidepuzzle</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="slidepuzzle_text">Slidepuzzle</string>
+    <string name="start_Button">Start</string>
+    <string name="highscores_button">Highscores</string>
+    <string name="options_button">Options</string>
+</resources>
