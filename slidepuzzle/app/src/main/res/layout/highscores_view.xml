@@ -1,9 +1,622 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0099cc"
     tools:context="pmalik.at.slidepuzzle.HighscoresView">
 
-</FrameLayout>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Highscores_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/highscores_text"
+            android:textAppearance="@android:style/TextAppearance.Material.Display2" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/highscores_table_row_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:weightSum="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/highscores_table_row_header_nr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="@string/highscores_nr_text"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_header_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_name_text"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_header_moves"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highgscores_moves_text"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_header_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_time_text"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/highscores_table_row_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:weightSum="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/highscores_table_row_1_nr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_1_nr"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_1_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_1_name"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_1_moves"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_1_moves"
+                android:textSize="17sp"
+ />
+
+            <TextView
+                android:id="@+id/highscores_table_row_1_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_1_time"
+                android:textSize="17sp"
+ />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/highscores_table_row_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:weightSum="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/highscores_table_row_2_nr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_2_nr"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_2_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_2_name"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_2_moves"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_2_moves"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_2_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_2_time"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/highscores_table_row_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:weightSum="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/highscores_table_row_3_nr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_3_nr"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_3_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_3_name"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_3_moves"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_3_moves"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_3_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_3_time"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/highscores_table_row_4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:weightSum="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/highscores_table_row_4_nr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_4_nr"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_4_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_4_name"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_4_moves"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_4_moves"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_4_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_4_time"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/highscores_table_row_5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:weightSum="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/highscores_table_row_5_nr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_5_nr"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_5_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_5_name"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_5_moves"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_5_moves"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_5_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_5_time"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/highscores_table_row_6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:weightSum="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/highscores_table_row_6_nr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_6_nr"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_6_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_6_name"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_6_moves"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_6_moves"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_6_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_6_time"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/highscores_table_row_7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:weightSum="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/highscores_table_row_7_nr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_7_nr"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_7_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_7_name"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_7_moves"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_7_moves"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_7_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_7_time"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/highscores_table_row_8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:weightSum="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/highscores_table_row_8_nr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_8_nr"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_8_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_8_name"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_8_moves"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_8_moves"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_8_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_8_time"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/highscores_table_row_9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:weightSum="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/highscores_table_row_9_nr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_9_nr"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_9_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_9_name"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_9_moves"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_9_moves"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_9_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_9_time"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/highscores_table_row_10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:weightSum="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/highscores_table_row_10_nr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_10_nr"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_10_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_10_name"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_10_moves"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_10_moves"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/highscores_table_row_10_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="@string/highscores_table_row_10_time"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+    </TableRow>
+</TableLayout>
