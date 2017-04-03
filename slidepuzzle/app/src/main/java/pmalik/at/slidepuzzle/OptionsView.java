@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import pmalik.at.slidepuzzle.UIComponents.Listener.SeekBarActionListener;
+
 /**
  * Created by Austr on 31.03.2017.
  */

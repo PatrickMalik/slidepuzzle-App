@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="game_restart_button">Restart</string>
+    <string name="game_menu_button">Menu</string>
+    
+    <string name="game_time_text">Time:</string>
+    <string name="game_moves_text">Moves:</string>
+    <string name="game_time_display">12:32</string>
+    <string name="game_moves_display">312</string>
+</resources>

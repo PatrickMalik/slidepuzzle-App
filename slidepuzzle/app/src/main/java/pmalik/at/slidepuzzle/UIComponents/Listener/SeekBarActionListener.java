@@ -1,9 +1,7 @@
-package pmalik.at.slidepuzzle;
+package pmalik.at.slidepuzzle.UIComponents.Listener;
 
 import android.widget.SeekBar;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 /**
  * Created by Austr on 03.04.2017.
