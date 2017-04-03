@@ -5,15 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0099cc"
-    tools:context="pmalik.at.slidepuzzle.HighscoresView">
+    tools:context="pmalik.at.slidepuzzle.HighscoresView"
+    android:weightSum="10">
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_weight="2.5">
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="80sp"
+            android:layout_height="wrap_content"
             android:layout_weight="1" />
     </TableRow>
 
@@ -33,11 +35,12 @@
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_weight="1.5">
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="40sp"
+            android:layout_height="wrap_content"
             android:layout_weight="1" />
 
     </TableRow>
