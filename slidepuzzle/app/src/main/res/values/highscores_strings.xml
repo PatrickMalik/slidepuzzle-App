@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="highscores_button">Highscores</string>
-    <string name="options_button">Options</string>
-    <string name="highscores_text">Highscores</string>
+    <string name="highscores_title">Highscores</string>
 
     <string name="highscores_nr_text">Nr.</string>
     <string name="highscores_name_text">Name</string>

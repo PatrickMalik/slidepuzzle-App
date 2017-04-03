@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="@string/slidepuzzle_text"
+            android:text="@string/main_menu_title"
             android:textAppearance="@android:style/TextAppearance.Material.Display2" />
     </TableRow>
 
@@ -61,7 +61,7 @@
             android:layout_height="wrap_content"
             android:elevation="0dp"
             android:onClick="switchToStart"
-            android:text="@string/start_Button" />
+            android:text="@string/main_menu_start_button" />
 
     </TableRow>
 
@@ -76,7 +76,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="switchToHighscores"
-            android:text="@string/highscores_button" />
+            android:text="@string/main_menu_highscores_button" />
     </TableRow>
 
     <TableRow
@@ -90,7 +90,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="switchToOptions"
-            android:text="@string/options_button" />
+            android:text="@string/main_menu_options_button" />
     </TableRow>
 </TableLayout>
 

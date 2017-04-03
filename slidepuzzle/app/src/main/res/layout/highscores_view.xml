@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="@string/highscores_text"
+            android:text="@string/highscores_title"
             android:textAppearance="@android:style/TextAppearance.Material.Display2" />
     </TableRow>
 
@@ -37,7 +37,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="40sp"
             android:layout_weight="1" />
 
     </TableRow>
@@ -47,7 +47,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:weightSum="1.0">
+        android:weightSum="1.0"
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -62,8 +63,8 @@
                 android:layout_weight="0.1"
                 android:gravity="center"
                 android:text="@string/highscores_nr_text"
-                android:textSize="17sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_header_name"
@@ -72,8 +73,8 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_name_text"
-                android:textSize="17sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_header_moves"
@@ -82,7 +83,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highgscores_moves_text"
-                android:textSize="17sp"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
                 android:textStyle="bold" />
 
             <TextView
@@ -92,8 +93,8 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_time_text"
-                android:textSize="17sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
         </LinearLayout>
 
     </TableRow>
@@ -118,7 +119,7 @@
                 android:layout_weight="0.1"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_1_nr"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_1_name"
@@ -127,7 +128,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_1_name"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_1_moves"
@@ -136,8 +137,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_1_moves"
-                android:textSize="17sp"
- />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_1_time"
@@ -146,8 +146,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_1_time"
-                android:textSize="17sp"
- />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
         </LinearLayout>
 
     </TableRow>
@@ -172,7 +171,7 @@
                 android:layout_weight="0.1"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_2_nr"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_2_name"
@@ -181,7 +180,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_2_name"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_2_moves"
@@ -190,7 +189,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_2_moves"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_2_time"
@@ -199,7 +198,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_2_time"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
         </LinearLayout>
 
     </TableRow>
@@ -224,7 +223,7 @@
                 android:layout_weight="0.1"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_3_nr"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_3_name"
@@ -233,7 +232,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_3_name"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_3_moves"
@@ -242,7 +241,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_3_moves"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_3_time"
@@ -251,7 +250,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_3_time"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
         </LinearLayout>
 
     </TableRow>
@@ -276,7 +275,7 @@
                 android:layout_weight="0.1"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_4_nr"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_4_name"
@@ -285,7 +284,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_4_name"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_4_moves"
@@ -294,7 +293,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_4_moves"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_4_time"
@@ -303,7 +302,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_4_time"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
         </LinearLayout>
 
     </TableRow>
@@ -328,7 +327,7 @@
                 android:layout_weight="0.1"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_5_nr"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_5_name"
@@ -337,7 +336,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_5_name"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_5_moves"
@@ -346,7 +345,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_5_moves"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_5_time"
@@ -355,7 +354,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_5_time"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
         </LinearLayout>
 
     </TableRow>
@@ -380,7 +379,7 @@
                 android:layout_weight="0.1"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_6_nr"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_6_name"
@@ -389,7 +388,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_6_name"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_6_moves"
@@ -398,7 +397,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_6_moves"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_6_time"
@@ -407,7 +406,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_6_time"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
         </LinearLayout>
 
     </TableRow>
@@ -432,7 +431,7 @@
                 android:layout_weight="0.1"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_7_nr"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_7_name"
@@ -441,7 +440,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_7_name"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_7_moves"
@@ -450,7 +449,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_7_moves"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_7_time"
@@ -459,7 +458,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_7_time"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
         </LinearLayout>
 
     </TableRow>
@@ -484,7 +483,7 @@
                 android:layout_weight="0.1"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_8_nr"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_8_name"
@@ -493,7 +492,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_8_name"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_8_moves"
@@ -502,7 +501,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_8_moves"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_8_time"
@@ -511,7 +510,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_8_time"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
         </LinearLayout>
 
     </TableRow>
@@ -536,7 +535,7 @@
                 android:layout_weight="0.1"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_9_nr"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_9_name"
@@ -545,7 +544,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_9_name"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_9_moves"
@@ -554,7 +553,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_9_moves"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_9_time"
@@ -563,7 +562,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_9_time"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
         </LinearLayout>
 
     </TableRow>
@@ -588,7 +587,7 @@
                 android:layout_weight="0.1"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_10_nr"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_10_name"
@@ -597,7 +596,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_10_name"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_10_moves"
@@ -606,7 +605,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_10_moves"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
             <TextView
                 android:id="@+id/highscores_table_row_10_time"
@@ -615,7 +614,7 @@
                 android:layout_weight="0.3"
                 android:gravity="center"
                 android:text="@string/highscores_table_row_10_time"
-                android:textSize="17sp" />
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
         </LinearLayout>
 
     </TableRow>

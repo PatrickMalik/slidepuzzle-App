@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="options_title">Options</string>
+    <string name="options_fieldsize_text">Fieldsize</string>
+    <string name="options_fieldsize_seekbar_value_text">5</string>
+</resources>
