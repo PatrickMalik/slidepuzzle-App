@@ -1,4 +1,4 @@
-package pmalik.at.slidepuzzle.UIComponents.Layout;
+package pmalik.at.slidepuzzle.uiComponents.Layout;
 
 import android.content.Context;
 import android.support.annotation.Nullable;

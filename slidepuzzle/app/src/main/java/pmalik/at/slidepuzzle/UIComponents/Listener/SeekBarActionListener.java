@@ -1,4 +1,4 @@
-package pmalik.at.slidepuzzle.UIComponents.Listener;
+package pmalik.at.slidepuzzle.uiComponents.Listener;
 
 import android.widget.SeekBar;
 import android.widget.TextView;
